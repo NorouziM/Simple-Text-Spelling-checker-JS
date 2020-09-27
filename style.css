@@ -1,0 +1,222 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'IRANSans', 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+@font-face {
+  font-family: IRANSans;
+  src: url(IRANSans.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+Layout
+--------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+		background-color: #50858B;
+}
+
+.masthead {
+    padding: 2em 2em;
+    background-color: #0D1B2E;
+		padding-top: 10px;
+    color: white;
+		box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.25);
+		margin-bottom: 50px;
+}
+.footer{
+	margin-bottom: 00px;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	width:100%
+	height: 40%;
+}
+.footer h3{
+	font-size: 19px;
+	font-weight: 100;
+	color:#000;
+	display: inline-grid;
+	margin-top: 60px;
+	padding: 1em 2em;
+	background-color: #fff;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+	border:5px solid #fff;
+}
+.masthead h1 {
+    text-align: center;
+}
+
+.intro {
+    padding: 2em 2em;
+    color: #ffffff;
+}
+
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.test-area {
+    margin-bottom: 6em;
+		margin-top: 150px;;
+    /* padding: 2em 2em; */
+		text-align:right;
+}
+
+.test-wrapper {
+    border: 5px solid gray;
+}
+
+.test-wrapper {
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.meta #submit{
+	justify-content:center;
+
+}
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+		color:#0D1B2E;
+		padding: 20px 20px;
+}
+.clock{
+	padding: 20px 20px;
+
+}
+#reset,#submit {
+    padding: .5em 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0D1B2E;
+    background: white ;
+		box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.25);
+    border: 10px solid #0D1B2E;
+}
+#submit{
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+#submit:hover{
+
+	color: white;
+	cursor: pointer;
+	background-color: #0D1B2E;
+}
+#reset:hover {
+    color: white;
+		cursor: pointer;
+    background-color: #0D1B2E;
+}
